@@ -1,5 +1,6 @@
 * {
     font-family: 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -7,4 +8,13 @@ h1 {
     color: rgb(171, 47, 86);
 }
 
-
+.recipe > * {
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(189, 189, 189);
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    margin: 0px;
+}
