@@ -10,16 +10,46 @@ h1 {
     color: rgb(0, 0, 0);
 }
 
+.recipes div {
+    width: 100%;
+}
+
 .recipes h4 {
     font-family: Aboreto;
     color: black;
     background-color: rgba(255, 255, 255, 0.715);
     padding: 10px 5px;
+    width: inherit;
+}
+
+.recipes {
+    display: flex;
 }
 
 .recipes a {
     text-decoration: none;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    max-width: 30%;
+    max-height: 20%;
+    height: 200px;
+    margin: 20px;
+    background-clip: content-box;
+    text-align: center;
 }
+
+.recipes a:hover {
+    opacity: 0.3;
+}
+
+
 
 .lasagna {
     background-image: url(./images/Lasagne.webp);
