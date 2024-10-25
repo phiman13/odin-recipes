@@ -10,8 +10,41 @@ h1 {
     color: rgb(0, 0, 0);
 }
 
+.recipes {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+}
+
 .recipes div {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+}
+
+.recipes a {
+    border-radius: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.recipes a img {
+    position: absolute;
     width: 100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.recipes a:hover img {
+    opacity: 0.3;
 }
 
 .recipes h4 {
@@ -20,13 +53,19 @@ h1 {
     background-color: rgba(255, 255, 255, 0.715);
     padding: 10px 5px;
     width: inherit;
+    z-index: 2;
+    text-align: center;
+    position: relative;
 }
 
-.recipes {
-    display: flex;
+
+
+/* .recipes a:hover { */
+    opacity: 0.3;
 }
 
-.recipes a {
+
+/*.recipes a {
     text-decoration: none;
     border-style: dotted;
     border-width: 1px;
@@ -49,12 +88,6 @@ h1 {
     opacity: 0.3;
 }
 
-
-
-.lasagna {
-    background-image: url(./images/Lasagne.webp);
-}
-
 .maccheese {
     background-image: url(./images/MacCheese.webp);
 }
@@ -62,3 +95,5 @@ h1 {
 .pizza {
     background-image: url(./images/pizza.jpeg);
 }
+
+*/
