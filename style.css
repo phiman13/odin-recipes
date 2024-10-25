@@ -20,12 +20,10 @@ h1 {
     width: 300px;
     height: 200px;
     margin: 20px;
-    border-style: dotted;
-    border-width: 1px;
-    border-color: black;
     border-radius: 10px;
     position: relative;
     display: flex;
+    flex: 1;
 }
 
 .recipes a {
@@ -40,7 +38,10 @@ h1 {
     width: 100%;
     height:100%;
     object-fit: cover;
-    border-radius: inherit;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 10px;
 }
 
 .recipes a:hover img {
@@ -53,47 +54,6 @@ h1 {
     background-color: rgba(255, 255, 255, 0.715);
     padding: 10px 5px;
     width: inherit;
-    z-index: 2;
     text-align: center;
     position: relative;
 }
-
-
-
-/* .recipes a:hover { */
-    opacity: 0.3;
-}
-
-
-/*.recipes a {
-    text-decoration: none;
-    border-style: dotted;
-    border-width: 1px;
-    border-color: black;
-    border-radius: 10px;
-    background-size: cover;
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    max-width: 30%;
-    max-height: 20%;
-    height: 200px;
-    margin: 20px;
-    background-clip: content-box;
-    text-align: center;
-}
-
-.recipes a:hover {
-    opacity: 0.3;
-}
-
-.maccheese {
-    background-image: url(./images/MacCheese.webp);
-}
-
-.pizza {
-    background-image: url(./images/pizza.jpeg);
-}
-
-*/
