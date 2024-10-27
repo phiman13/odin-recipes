@@ -56,6 +56,7 @@
     height: 90px;
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 
 .navbar a {
@@ -73,8 +74,7 @@
 }
 
 .navItems {
-    margin-left: 20px; 
-    margin-right: 20px;
+    margin-right: 10px;
     font-weight: 700;
     font-size: 30px;
     height: inherit;
